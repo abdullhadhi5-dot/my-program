@@ -1,0 +1,8 @@
+password = input("Set your password: ")
+
+confirm_password = input("Re-enter your password: ")
+
+if password == confirm_password:
+    print("Access Granted")
+else:
+    print("Error: Passwords do not match")
